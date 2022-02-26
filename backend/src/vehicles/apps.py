@@ -1,0 +1,8 @@
+from django.apps import AppConfig
+
+
+class VehiclesConfig(AppConfig):
+    default_auto_field = "django.db.models.BigAutoField"
+    name = "vehicles"
+    verbose_name = "Veículos"
+    icon_name = "directions_car"
